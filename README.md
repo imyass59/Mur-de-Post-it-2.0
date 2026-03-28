@@ -33,13 +33,13 @@ npm install
 4. Lancement en développement
 
 ```bash
-npm dev
+npm run dev
 ```
 
 5. Lancement en développement
 
 ```bash
-npm start
+npm run start
 ```
 
 Ouvrir dans le navigateur:
