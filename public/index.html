@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mur de Post-it 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="page-header">
+      <h1>Mur de Post-it 2.0</h1>
+      <p>Ajoute, organise, like et commente les post-it.</p>
+    </header>
+
+    <section class="card">
+      <h2>Ajouter un post-it</h2>
+      <form id="postForm" class="form">
+        <input type="text" id="title" placeholder="Titre du post-it" required />
+        <textarea id="content" placeholder="Contenu du post-it" rows="4" required></textarea>
+
+        <select id="category" required>
+          <option value="">Choisir une catégorie</option>
+          <option value="Travail">Travail</option>
+          <option value="Idée">Idée</option>
+          <option value="Personnel">Personnel</option>
+          <option value="Urgent">Urgent</option>
+        </select>
+
+        <button type="submit">Ajouter</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Recherche et filtres</h2>
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Rechercher par mot-clé..." />
+        <select id="filterCategory">
+          <option value="">Toutes les catégories</option>
+          <option value="Travail">Travail</option>
+          <option value="Idée">Idée</option>
+          <option value="Personnel">Personnel</option>
+          <option value="Urgent">Urgent</option>
+        </select>
+      </div>
+    </section>
+
+    <section>
+      <h2>Liste des post-it</h2>
+      <div id="postsContainer" class="posts-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

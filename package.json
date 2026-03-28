@@ -1,0 +1,25 @@
+{
+  "name": "mur_de_post_it_2.0",
+  "version": "1.0.0",
+  "description": "mur_de_post_it_2.0",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up",
+    "docker:dev": "docker compose up --build",
+    "docker:down": "docker compose down",
+    "docker:restart": "docker compose down && docker compose up --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
