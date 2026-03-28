@@ -10,6 +10,16 @@
 - HTML / CSS / JavaScript
 - Docker
 
+## Fonctionnalités ajoutées
+
+- Ajout de post-it avec titre, contenu et catégorie
+- Modification d’un post-it
+- Suppression d’un post-it
+- Système de likes
+- Système de commentaires
+- Filtrage par catégorie
+- Recherche par mot-clé
+
 ## Installation
 
 1. Cloner le projet ou télécharger le dossier
